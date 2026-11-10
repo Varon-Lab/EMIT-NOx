@@ -1,0 +1,34 @@
+enmap/
+data/
+results/
+secrets/
+*.hdf
+emit-retr/amf_compute/modis_brdf/
+*/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Common data/artifacts you probably don't want in Git
+*.nc
+*.npy
+*.npz
+*.tif
+*.tiff
+*.grib2
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+emit-retr/testing_notebooks/class_data
+emit-retr/testing_notebooks/jobs
+emit-retr/testing_notebooks/outputs-old
+emit-retr/testing_notebooks/PAPER-FIGS
+emit-retr/testing_notebooks/PLOT_DATA
+emit-retr/testing_notebooks/SourceRate_INIT
