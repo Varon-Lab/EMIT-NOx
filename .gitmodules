@@ -1,0 +1,3 @@
+[submodule "EMIT-Data-Resources"]
+	path = EMIT-Data-Resources
+	url = https://github.com/nasa/EMIT-Data-Resources.git
