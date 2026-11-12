@@ -3,6 +3,7 @@ data/
 results/
 secrets/
 *.nc
+!datasets/differential_amf.nc
 *.npy
 *.npz
 *.hdf

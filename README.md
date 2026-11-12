@@ -12,7 +12,7 @@ conda env create -f environment.yml && conda activate emit_nox_env
 export EMIT_NOX_DIR=/path/to/storage   # base directory for all data and results (default: ./data)
 ```
 
-External inputs: the AMF look-up table `differential_amf.nc` (place in `$EMIT_NOX_DIR/AMF/`; see paper), and a CAMPD API key file (`$CAMPD_APIKEY_FILE`, only for downloading CEMS emissions).
+External input: a CAMPD API key file (`$CAMPD_APIKEY_FILE`), only needed to download CEMS emissions. The AMF look-up table is included at `datasets/differential_amf.nc`.
 
 ## Workflow (run from `src/`)
 

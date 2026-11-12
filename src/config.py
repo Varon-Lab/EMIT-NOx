@@ -22,7 +22,7 @@ CONFIG = {
     'ps_subdir': 'Point_Source',
 
     'NOX_CSEC': os.path.join(_REPO_DIR, 'cross_sections', 'no2c_97.txt'),
-    'AMF_LUT': os.path.join(BASE_DIR, 'AMF', 'differential_amf.nc')
+    'AMF_LUT': os.path.join(_REPO_DIR, 'datasets', 'differential_amf.nc')
 }
 
 LOCS = {
