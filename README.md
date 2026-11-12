@@ -1,8 +1,10 @@
+[![DOI](https://zenodo.org/badge/1452827134.svg)](https://doi.org/10.5281/zenodo.24154985)
+
 # EMIT-NOx
 
 Code for the EMIT NO2 retrieval and NOx point-source rate estimates in
 *Quantifying Nitrogen Oxide Point Sources With the EMIT Satellite Imaging Spectrometer* (GRL, doi:10.1029/2026GL124107).
-Per-scene retrievals, masks and source rates are archived on Zenodo.
+Per-scene retrievals, masks and source rates are archived on Zenodo at doi:10.5281/zenodo.24150654
 
 ## Setup
 
