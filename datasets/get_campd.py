@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from tzfpy import get_tz
 
-sys.path.append('../emit-retr/')
+sys.path.append('../src/')
 from config import CONFIG
 
 

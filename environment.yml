@@ -1,0 +1,32 @@
+name: emit_nox_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # core numerics / data
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - matplotlib
+  - scikit-image
+  # wind data (HRRR GRIB2 via cfgrib; GEOS-FP)
+  - cfgrib
+  - eccodes
+  - requests
+  # EMIT data access and the EMIT-Data-Resources emit_tools module (git submodule)
+  - earthaccess
+  - geopandas
+  - rasterio
+  - rioxarray
+  - gdal
+  - fsspec
+  - s3fs
+  - spectral
+  # imported at the top of EMIT_NOX.py
+  - holoviews
+  - hvplot
+  - pip
+  - pip:
+      - tzfpy   # only needed by datasets/get_campd.py (CEMS download)

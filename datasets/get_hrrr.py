@@ -226,7 +226,7 @@ def get_hrrr_wind_10m(lat, lon, date_time, cache="./../dat/_hrrr/"):
 
 
 if __name__ == "__main__":
-    usecache='/orcd/data/dvaron/001/kgauld/HRRR'
+    usecache='./HRRR'
     # dt = datetime(2025, 1, 21, 18)
     dt = datetime(2024, 10, 1, 19)
     # w = get_hrrr_wind_agl(42.34648458544964, -71.11735491561392, dt, layer=(300, 500))
